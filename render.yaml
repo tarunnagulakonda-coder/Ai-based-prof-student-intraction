@@ -9,7 +9,7 @@ services:
     plan: free
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn tests.wsgi:application"
+    startCommand: "python -m gunicorn tests.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
