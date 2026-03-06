@@ -1,49 +1,85 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LecTrack | Real-Time Availability</title>
-    <link rel="stylesheet" href="{% static 'testcase.css' %}?v=3">
+    <title>LecTrack | AI-Powered Premium Scrollytelling</title>
+    <!-- Import Outfit font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'testcase.css' %}?v=4">
 </head>
-
 <body>
-    <nav class="navbar">
-        <h1>LecTrack</h1>
+    <!-- Premium Navbar -->
+    <nav class="navbar modern-nav blur-nav">
+        <div class="brand">LecTrack<span class="brand-ai">.AI</span></div>
         <div class="nav-links">
-            <button onclick="showView('student')" class="btn-nav">Student View</button>
-            <button onclick="showView('login')" class="btn-nav">Lecturer Login</button>
+            <button onclick="scrollToTop()" class="btn-nav neon-hover">Home</button>
+            <button onclick="showView('student')" class="btn-nav neon-hover">Directory</button>
+            <button onclick="showView('login')" class="btn-nav neon-hover">Lecturer Portal</button>
         </div>
     </nav>
 
-    <main class="container">
-        <section id="student-view" class="view">
-            <h2>Lecturer Directory</h2>
-            <div id="lecturer-list" class="grid">
+    <!-- The Scroll Experience Wrapper -->
+    <div id="scrolly-wrapper" class="scrolly-wrapper">
+        <!-- Sticky Container keeps canvas in place while scrolling -->
+        <div class="sticky-container">
+            <!-- Scrolly Canvas -->
+            <canvas id="hero-canvas"></canvas>
+            
+            <!-- Text Overlays -->
+            <div class="text-overlay step-1">
+                <h1>Smart tracking.</h1>
+                <p>Real-time campus intelligence.</p>
+            </div>
+            <div class="text-overlay step-2">
+                <h1>AI Predictions.</h1>
+                <p>Know exactly when they arrive.</p>
+            </div>
+            <div class="text-overlay step-3">
+                <h1>Zero Guesswork.</h1>
+                <p>Welcome to the future of learning.</p>
+            </div>
+        </div>
+    </div>
+
+    <main class="container content-layer">
+        
+        <!-- NEW: AI Suggestions Board (Premium Card) -->
+        <section id="ai-board" class="ai-board glassmorphism">
+            <h2>✨ AI Insights & Predictions</h2>
+            <div id="ai-suggestions-list" class="suggestions-list">
+                <div class="loading-pulse">Analyzing logs...</div>
             </div>
         </section>
 
+        <!-- Existing Logic Views -->
+        <section id="student-view" class="view hidden">
+            <h2>Lecturer Directory</h2>
+            <div id="lecturer-list" class="grid"></div>
+        </section>
+
         <section id="login-view" class="view hidden">
-            <div class="card login-card">
+            <div class="card login-card glassmorphism">
                 <h2>Lecturer Login</h2>
-                <input type="text" id="username" placeholder="Enter Lecturer Name (e.g. Dr. Smith)">
+                <input type="text" id="username" placeholder="Enter Lecturer ID or Name">
                 <input type="password" id="password" placeholder="Password">
-                <button onclick="handleLogin()" class="btn-primary">Login</button>
+                <button onclick="handleLogin()" class="btn-primary glow-btn">Access Portal</button>
                 <p id="login-error" class="error"></p>
             </div>
         </section>
 
         <section id="lecturer-view" class="view hidden">
-            <div class="dashboard-header">
-                <h2>Welcome, <span id="prof-name"></span></h2>
+            <div class="dashboard-header glassmorphism">
+                <h2>Welcome, <span id="prof-name" class="gradient-text"></span></h2>
                 <button onclick="logout()" class="btn-outline">Logout</button>
             </div>
-            <div class="card">
+            <div class="card glassmorphism dashboard-card">
                 <h3>Update Your Status</h3>
                 <label>Current Status:</label>
-                <select id="status-select">
+                <select id="status-select" class="premium-input">
                     <option value="Available">Available</option>
                     <option value="In Class">In Class</option>
                     <option value="Busy">Busy</option>
@@ -51,14 +87,21 @@
                 </select>
 
                 <label>Cabin Location:</label>
-                <input type="text" id="cabin-input" placeholder="e.g., Block A, Room 302">
+                <input type="text" id="cabin-input" class="premium-input" placeholder="e.g., Block A, Room 302">
 
-                <button onclick="updateLecturerData()" class="btn-primary">Save Changes</button>
+                <button onclick="updateLecturerData()" class="btn-primary glow-btn">Update Status</button>
             </div>
         </section>
     </main>
 
-    <script src="{% static 'testcs.js' %}?v=3"></script>
-</body>
+    <!-- Premium Footer -->
+    <footer class="modern-footer">
+        <div class="footer-content">
+            <div class="brand">LecTrack<span class="brand-ai">.AI</span></div>
+            <p>Predictive scheduling and campus intelligence.</p>
+        </div>
+    </footer>
 
+    <script src="{% static 'testcs.js' %}?v=4"></script>
+</body>
 </html>

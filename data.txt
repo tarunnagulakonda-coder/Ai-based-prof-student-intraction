@@ -1,0 +1,507 @@
+
+lecturer_name,location,status,timestamp,day_of_week
+Dr. Smith,Lab 2,In Class,2026-02-06 09:30:00,Friday
+Dr. Smith,Lab 1,In Class,2026-02-06 10:45:00,Friday
+Dr. Smith,Cabin 101,In Class,2026-02-06 11:50:00,Friday
+Dr. Smith,Cabin 101,Busy,2026-02-06 13:15:00,Friday
+Dr. Smith,Lab 2,Available,2026-02-06 14:15:00,Friday
+Dr. Smith,Cabin 101,Available,2026-02-06 15:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-06 09:15:00,Friday
+Prof. Doe,Lab 2,In Class,2026-02-06 10:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-06 11:15:00,Friday
+Prof. Doe,Cabin 102,Busy,2026-02-06 12:30:00,Friday
+Prof. Doe,Lab 2,Available,2026-02-06 14:45:00,Friday
+Prof. Doe,Cabin 102,Available,2026-02-06 16:00:00,Friday
+Dr. Jones,Lab 1,In Class,2026-02-06 09:05:00,Friday
+Dr. Jones,Lab 2,In Class,2026-02-06 10:10:00,Friday
+Dr. Jones,Lab 3,In Class,2026-02-06 11:35:00,Friday
+Dr. Jones,Cabin 101,Busy,2026-02-06 13:45:00,Friday
+Dr. Jones,Lab 2,Available,2026-02-06 15:20:00,Friday
+Dr. Jones,Cabin 101,Available,2026-02-06 16:50:00,Friday
+Dr. Brown,Lab 3,In Class,2026-02-06 09:40:00,Friday
+Dr. Brown,Cabin 102,In Class,2026-02-06 10:50:00,Friday
+Dr. Brown,Lab 2,In Class,2026-02-06 11:45:00,Friday
+Dr. Brown,Cabin 102,Busy,2026-02-06 12:15:00,Friday
+Dr. Brown,Lab 2,Available,2026-02-06 14:05:00,Friday
+Dr. Brown,Cabin 102,Available,2026-02-06 16:20:00,Friday
+Dr. Smith,Lab 2,In Class,2026-02-09 09:15:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-02-09 10:30:00,Monday
+Dr. Smith,Lab 2,In Class,2026-02-09 11:45:00,Monday
+Dr. Smith,Cabin 101,Busy,2026-02-09 13:00:00,Monday
+Dr. Smith,Lab 2,Available,2026-02-09 14:30:00,Monday
+Dr. Smith,Cabin 101,Available,2026-02-09 16:15:00,Monday
+Prof. Doe,Lab 1,In Class,2026-02-09 09:05:00,Monday
+Prof. Doe,Lab 2,In Class,2026-02-09 10:20:00,Monday
+Prof. Doe,Cabin 102,In Class,2026-02-09 11:35:00,Monday
+Prof. Doe,Cabin 102,Busy,2026-02-09 12:45:00,Monday
+Prof. Doe,Lab 2,Available,2026-02-09 15:10:00,Monday
+Prof. Doe,Cabin 102,Available,2026-02-09 16:30:00,Monday
+Dr. Jones,Lab 3,In Class,2026-02-09 09:40:00,Monday
+Dr. Jones,Lab 2,In Class,2026-02-09 10:55:00,Monday
+Dr. Jones,Lab 3,In Class,2026-02-09 11:50:00,Monday
+Dr. Jones,Cabin 101,Busy,2026-02-09 12:20:00,Monday
+Dr. Jones,Lab 2,Available,2026-02-09 14:15:00,Monday
+Dr. Jones,Cabin 101,Available,2026-02-09 16:05:00,Monday
+Dr. Brown,Lab 2,In Class,2026-02-09 09:25:00,Monday
+Dr. Brown,Lab 1,In Class,2026-02-09 10:10:00,Monday
+Dr. Brown,Lab 2,In Class,2026-02-09 11:15:00,Monday
+Dr. Brown,Cabin 102,Busy,2026-02-09 13:30:00,Monday
+Dr. Brown,Cabin 102,Available,2026-02-09 14:50:00,Monday
+Dr. Brown,Lab 2,Available,2026-02-09 16:40:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-02-10 09:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-02-10 10:15:00,Tuesday
+Dr. Smith,Lab 1,In Class,2026-02-10 11:30:00,Tuesday
+Dr. Smith,Cabin 101,Busy,2026-02-10 12:15:00,Tuesday
+Dr. Smith,Lab 2,Available,2026-02-10 14:00:00,Tuesday
+Dr. Smith,Cabin 101,Available,2026-02-10 15:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-02-10 09:30:00,Tuesday
+Prof. Doe,Lab 3,In Class,2026-02-10 10:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-02-10 11:55:00,Tuesday
+Prof. Doe,Cabin 102,Busy,2026-02-10 13:10:00,Tuesday
+Prof. Doe,Cabin 102,Available,2026-02-10 14:40:00,Tuesday
+Prof. Doe,Lab 2,Available,2026-02-10 16:15:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-02-10 09:10:00,Tuesday
+Dr. Jones,Cabin 101,In Class,2026-02-10 10:25:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-02-10 11:40:00,Tuesday
+Dr. Jones,Cabin 101,Busy,2026-02-10 12:50:00,Tuesday
+Dr. Jones,Lab 2,Available,2026-02-10 15:00:00,Tuesday
+Dr. Jones,Cabin 101,Available,2026-02-10 16:45:00,Tuesday
+Dr. Brown,Cabin 102,In Class,2026-02-10 09:50:00,Tuesday
+Dr. Brown,Lab 2,In Class,2026-02-10 11:05:00,Tuesday
+Dr. Brown,Lab 1,In Class,2026-02-10 11:50:00,Tuesday
+Dr. Brown,Cabin 102,Busy,2026-02-10 13:45:00,Tuesday
+Dr. Brown,Lab 2,Available,2026-02-10 14:20:00,Tuesday
+Dr. Brown,Cabin 102,Available,2026-02-10 16:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-02-11 09:15:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-02-11 10:30:00,Wednesday
+Dr. Smith,Lab 2,In Class,2026-02-11 11:45:00,Wednesday
+Dr. Smith,Cabin 101,Busy,2026-02-11 13:00:00,Wednesday
+Dr. Smith,Lab 2,Available,2026-02-11 14:30:00,Wednesday
+Dr. Smith,Cabin 101,Available,2026-02-11 16:15:00,Wednesday
+Prof. Doe,Lab 1,In Class,2026-02-11 09:05:00,Wednesday
+Prof. Doe,Lab 2,In Class,2026-02-11 10:20:00,Wednesday
+Prof. Doe,Cabin 102,In Class,2026-02-11 11:35:00,Wednesday
+Prof. Doe,Cabin 102,Busy,2026-02-11 12:45:00,Wednesday
+Prof. Doe,Lab 2,Available,2026-02-11 15:10:00,Wednesday
+Prof. Doe,Cabin 102,Available,2026-02-11 16:30:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-02-11 09:40:00,Wednesday
+Dr. Jones,Lab 2,In Class,2026-02-11 10:55:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-02-11 11:50:00,Wednesday
+Dr. Jones,Cabin 101,Busy,2026-02-11 12:20:00,Wednesday
+Dr. Jones,Lab 2,Available,2026-02-11 14:15:00,Wednesday
+Dr. Jones,Cabin 101,Available,2026-02-11 16:05:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-02-11 09:25:00,Wednesday
+Dr. Brown,Lab 1,In Class,2026-02-11 10:10:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-02-11 11:15:00,Wednesday
+Dr. Brown,Cabin 102,Busy,2026-02-11 13:30:00,Wednesday
+Dr. Brown,Cabin 102,Available,2026-02-11 14:50:00,Wednesday
+Dr. Brown,Lab 2,Available,2026-02-11 16:40:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-02-12 09:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-02-12 10:15:00,Thursday
+Dr. Smith,Lab 1,In Class,2026-02-12 11:30:00,Thursday
+Dr. Smith,Cabin 101,Busy,2026-02-12 12:15:00,Thursday
+Dr. Smith,Lab 2,Available,2026-02-12 14:00:00,Thursday
+Dr. Smith,Cabin 101,Available,2026-02-12 15:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-02-12 09:30:00,Thursday
+Prof. Doe,Lab 3,In Class,2026-02-12 10:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-02-12 11:55:00,Thursday
+Prof. Doe,Cabin 102,Busy,2026-02-12 13:10:00,Thursday
+Prof. Doe,Cabin 102,Available,2026-02-12 14:40:00,Thursday
+Prof. Doe,Lab 2,Available,2026-02-12 16:15:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-02-12 09:10:00,Thursday
+Dr. Jones,Cabin 101,In Class,2026-02-12 10:25:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-02-12 11:40:00,Thursday
+Dr. Jones,Cabin 101,Busy,2026-02-12 12:50:00,Thursday
+Dr. Jones,Lab 2,Available,2026-02-12 15:00:00,Thursday
+Dr. Jones,Cabin 101,Available,2026-02-12 16:45:00,Thursday
+Dr. Brown,Cabin 102,In Class,2026-02-12 09:50:00,Thursday
+Dr. Brown,Lab 2,In Class,2026-02-12 11:05:00,Thursday
+Dr. Brown,Lab 1,In Class,2026-02-12 11:50:00,Thursday
+Dr. Brown,Cabin 102,Busy,2026-02-12 13:45:00,Thursday
+Dr. Brown,Lab 2,Available,2026-02-12 14:20:00,Thursday
+Dr. Brown,Cabin 102,Available,2026-02-12 16:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-02-13 09:30:00,Friday
+Dr. Smith,Lab 1,In Class,2026-02-13 10:45:00,Friday
+Dr. Smith,Cabin 101,In Class,2026-02-13 11:50:00,Friday
+Dr. Smith,Cabin 101,Busy,2026-02-13 13:15:00,Friday
+Dr. Smith,Lab 2,Available,2026-02-13 14:15:00,Friday
+Dr. Smith,Cabin 101,Available,2026-02-13 15:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-13 09:15:00,Friday
+Prof. Doe,Lab 2,In Class,2026-02-13 10:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-13 11:15:00,Friday
+Prof. Doe,Cabin 102,Busy,2026-02-13 12:30:00,Friday
+Prof. Doe,Lab 2,Available,2026-02-13 14:45:00,Friday
+Prof. Doe,Cabin 102,Available,2026-02-13 16:00:00,Friday
+Dr. Jones,Lab 1,In Class,2026-02-13 09:05:00,Friday
+Dr. Jones,Lab 2,In Class,2026-02-13 10:10:00,Friday
+Dr. Jones,Lab 3,In Class,2026-02-13 11:35:00,Friday
+Dr. Jones,Cabin 101,Busy,2026-02-13 13:45:00,Friday
+Dr. Jones,Lab 2,Available,2026-02-13 15:20:00,Friday
+Dr. Jones,Cabin 101,Available,2026-02-13 16:50:00,Friday
+Dr. Brown,Lab 3,In Class,2026-02-13 09:40:00,Friday
+Dr. Brown,Cabin 102,In Class,2026-02-13 10:50:00,Friday
+Dr. Brown,Lab 2,In Class,2026-02-13 11:45:00,Friday
+Dr. Brown,Cabin 102,Busy,2026-02-13 12:15:00,Friday
+Dr. Brown,Lab 2,Available,2026-02-13 14:05:00,Friday
+Dr. Brown,Cabin 102,Available,2026-02-13 16:20:00,Friday
+Dr. Smith,Lab 2,In Class,2026-02-16 09:15:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-02-16 10:30:00,Monday
+Dr. Smith,Lab 2,In Class,2026-02-16 11:45:00,Monday
+Dr. Smith,Cabin 101,Busy,2026-02-16 13:00:00,Monday
+Dr. Smith,Lab 2,Available,2026-02-16 14:30:00,Monday
+Dr. Smith,Cabin 101,Available,2026-02-16 16:15:00,Monday
+Prof. Doe,Lab 1,In Class,2026-02-16 09:05:00,Monday
+Prof. Doe,Lab 2,In Class,2026-02-16 10:20:00,Monday
+Prof. Doe,Cabin 102,In Class,2026-02-16 11:35:00,Monday
+Prof. Doe,Cabin 102,Busy,2026-02-16 12:45:00,Monday
+Prof. Doe,Lab 2,Available,2026-02-16 15:10:00,Monday
+Prof. Doe,Cabin 102,Available,2026-02-16 16:30:00,Monday
+Dr. Jones,Lab 3,In Class,2026-02-16 09:40:00,Monday
+Dr. Jones,Lab 2,In Class,2026-02-16 10:55:00,Monday
+Dr. Jones,Lab 3,In Class,2026-02-16 11:50:00,Monday
+Dr. Jones,Cabin 101,Busy,2026-02-16 12:20:00,Monday
+Dr. Jones,Lab 2,Available,2026-02-16 14:15:00,Monday
+Dr. Jones,Cabin 101,Available,2026-02-16 16:05:00,Monday
+Dr. Brown,Lab 2,In Class,2026-02-16 09:25:00,Monday
+Dr. Brown,Lab 1,In Class,2026-02-16 10:10:00,Monday
+Dr. Brown,Lab 2,In Class,2026-02-16 11:15:00,Monday
+Dr. Brown,Cabin 102,Busy,2026-02-16 13:30:00,Monday
+Dr. Brown,Cabin 102,Available,2026-02-16 14:50:00,Monday
+Dr. Brown,Lab 2,Available,2026-02-16 16:40:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-02-17 09:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-02-17 10:15:00,Tuesday
+Dr. Smith,Lab 1,In Class,2026-02-17 11:30:00,Tuesday
+Dr. Smith,Cabin 101,Busy,2026-02-17 12:15:00,Tuesday
+Dr. Smith,Lab 2,Available,2026-02-17 14:00:00,Tuesday
+Dr. Smith,Cabin 101,Available,2026-02-17 15:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-02-17 09:30:00,Tuesday
+Prof. Doe,Lab 3,In Class,2026-02-17 10:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-02-17 11:55:00,Tuesday
+Prof. Doe,Cabin 102,Busy,2026-02-17 13:10:00,Tuesday
+Prof. Doe,Cabin 102,Available,2026-02-17 14:40:00,Tuesday
+Prof. Doe,Lab 2,Available,2026-02-17 16:15:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-02-17 09:10:00,Tuesday
+Dr. Jones,Cabin 101,In Class,2026-02-17 10:25:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-02-17 11:40:00,Tuesday
+Dr. Jones,Cabin 101,Busy,2026-02-17 12:50:00,Tuesday
+Dr. Jones,Lab 2,Available,2026-02-17 15:00:00,Tuesday
+Dr. Jones,Cabin 101,Available,2026-02-17 16:45:00,Tuesday
+Dr. Brown,Cabin 102,In Class,2026-02-17 09:50:00,Tuesday
+Dr. Brown,Lab 2,In Class,2026-02-17 11:05:00,Tuesday
+Dr. Brown,Lab 1,In Class,2026-02-17 11:50:00,Tuesday
+Dr. Brown,Cabin 102,Busy,2026-02-17 13:45:00,Tuesday
+Dr. Brown,Lab 2,Available,2026-02-17 14:20:00,Tuesday
+Dr. Brown,Cabin 102,Available,2026-02-17 16:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-02-18 09:15:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-02-18 10:30:00,Wednesday
+Dr. Smith,Lab 2,In Class,2026-02-18 11:45:00,Wednesday
+Dr. Smith,Cabin 101,Busy,2026-02-18 13:00:00,Wednesday
+Dr. Smith,Lab 2,Available,2026-02-18 14:30:00,Wednesday
+Dr. Smith,Cabin 101,Available,2026-02-18 16:15:00,Wednesday
+Prof. Doe,Lab 1,In Class,2026-02-18 09:05:00,Wednesday
+Prof. Doe,Lab 2,In Class,2026-02-18 10:20:00,Wednesday
+Prof. Doe,Cabin 102,In Class,2026-02-18 11:35:00,Wednesday
+Prof. Doe,Cabin 102,Busy,2026-02-18 12:45:00,Wednesday
+Prof. Doe,Lab 2,Available,2026-02-18 15:10:00,Wednesday
+Prof. Doe,Cabin 102,Available,2026-02-18 16:30:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-02-18 09:40:00,Wednesday
+Dr. Jones,Lab 2,In Class,2026-02-18 10:55:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-02-18 11:50:00,Wednesday
+Dr. Jones,Cabin 101,Busy,2026-02-18 12:20:00,Wednesday
+Dr. Jones,Lab 2,Available,2026-02-18 14:15:00,Wednesday
+Dr. Jones,Cabin 101,Available,2026-02-18 16:05:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-02-18 09:25:00,Wednesday
+Dr. Brown,Lab 1,In Class,2026-02-18 10:10:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-02-18 11:15:00,Wednesday
+Dr. Brown,Cabin 102,Busy,2026-02-18 13:30:00,Wednesday
+Dr. Brown,Cabin 102,Available,2026-02-18 14:50:00,Wednesday
+Dr. Brown,Lab 2,Available,2026-02-18 16:40:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-02-19 09:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-02-19 10:15:00,Thursday
+Dr. Smith,Lab 1,In Class,2026-02-19 11:30:00,Thursday
+Dr. Smith,Cabin 101,Busy,2026-02-19 12:15:00,Thursday
+Dr. Smith,Lab 2,Available,2026-02-19 14:00:00,Thursday
+Dr. Smith,Cabin 101,Available,2026-02-19 15:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-02-19 09:30:00,Thursday
+Prof. Doe,Lab 3,In Class,2026-02-19 10:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-02-19 11:55:00,Thursday
+Prof. Doe,Cabin 102,Busy,2026-02-19 13:10:00,Thursday
+Prof. Doe,Cabin 102,Available,2026-02-19 14:40:00,Thursday
+Prof. Doe,Lab 2,Available,2026-02-19 16:15:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-02-19 09:10:00,Thursday
+Dr. Jones,Cabin 101,In Class,2026-02-19 10:25:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-02-19 11:40:00,Thursday
+Dr. Jones,Cabin 101,Busy,2026-02-19 12:50:00,Thursday
+Dr. Jones,Lab 2,Available,2026-02-19 15:00:00,Thursday
+Dr. Jones,Cabin 101,Available,2026-02-19 16:45:00,Thursday
+Dr. Brown,Cabin 102,In Class,2026-02-19 09:50:00,Thursday
+Dr. Brown,Lab 2,In Class,2026-02-19 11:05:00,Thursday
+Dr. Brown,Lab 1,In Class,2026-02-19 11:50:00,Thursday
+Dr. Brown,Cabin 102,Busy,2026-02-19 13:45:00,Thursday
+Dr. Brown,Lab 2,Available,2026-02-19 14:20:00,Thursday
+Dr. Brown,Cabin 102,Available,2026-02-19 16:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-02-20 09:30:00,Friday
+Dr. Smith,Lab 1,In Class,2026-02-20 10:45:00,Friday
+Dr. Smith,Cabin 101,In Class,2026-02-20 11:50:00,Friday
+Dr. Smith,Cabin 101,Busy,2026-02-20 13:15:00,Friday
+Dr. Smith,Lab 2,Available,2026-02-20 14:15:00,Friday
+Dr. Smith,Cabin 101,Available,2026-02-20 15:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-20 09:15:00,Friday
+Prof. Doe,Lab 2,In Class,2026-02-20 10:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-20 11:15:00,Friday
+Prof. Doe,Cabin 102,Busy,2026-02-20 12:30:00,Friday
+Prof. Doe,Lab 2,Available,2026-02-20 14:45:00,Friday
+Prof. Doe,Cabin 102,Available,2026-02-20 16:00:00,Friday
+Dr. Jones,Lab 1,In Class,2026-02-20 09:05:00,Friday
+Dr. Jones,Lab 2,In Class,2026-02-20 10:10:00,Friday
+Dr. Jones,Lab 3,In Class,2026-02-20 11:35:00,Friday
+Dr. Jones,Cabin 101,Busy,2026-02-20 13:45:00,Friday
+Dr. Jones,Lab 2,Available,2026-02-20 15:20:00,Friday
+Dr. Jones,Cabin 101,Available,2026-02-20 16:50:00,Friday
+Dr. Brown,Lab 3,In Class,2026-02-20 09:40:00,Friday
+Dr. Brown,Cabin 102,In Class,2026-02-20 10:50:00,Friday
+Dr. Brown,Lab 2,In Class,2026-02-20 11:45:00,Friday
+Dr. Brown,Cabin 102,Busy,2026-02-20 12:15:00,Friday
+Dr. Brown,Lab 2,Available,2026-02-20 14:05:00,Friday
+Dr. Brown,Cabin 102,Available,2026-02-20 16:20:00,Friday
+Dr. Smith,Lab 2,In Class,2026-02-23 09:15:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-02-23 10:30:00,Monday
+Dr. Smith,Lab 2,In Class,2026-02-23 11:45:00,Monday
+Dr. Smith,Cabin 101,Busy,2026-02-23 13:00:00,Monday
+Dr. Smith,Lab 2,Available,2026-02-23 14:30:00,Monday
+Dr. Smith,Cabin 101,Available,2026-02-23 16:15:00,Monday
+Prof. Doe,Lab 1,In Class,2026-02-23 09:05:00,Monday
+Prof. Doe,Lab 2,In Class,2026-02-23 10:20:00,Monday
+Prof. Doe,Cabin 102,In Class,2026-02-23 11:35:00,Monday
+Prof. Doe,Cabin 102,Busy,2026-02-23 12:45:00,Monday
+Prof. Doe,Lab 2,Available,2026-02-23 15:10:00,Monday
+Prof. Doe,Cabin 102,Available,2026-02-23 16:30:00,Monday
+Dr. Jones,Lab 3,In Class,2026-02-23 09:40:00,Monday
+Dr. Jones,Lab 2,In Class,2026-02-23 10:55:00,Monday
+Dr. Jones,Lab 3,In Class,2026-02-23 11:50:00,Monday
+Dr. Jones,Cabin 101,Busy,2026-02-23 12:20:00,Monday
+Dr. Jones,Lab 2,Available,2026-02-23 14:15:00,Monday
+Dr. Jones,Cabin 101,Available,2026-02-23 16:05:00,Monday
+Dr. Brown,Lab 2,In Class,2026-02-23 09:25:00,Monday
+Dr. Brown,Lab 1,In Class,2026-02-23 10:10:00,Monday
+Dr. Brown,Lab 2,In Class,2026-02-23 11:15:00,Monday
+Dr. Brown,Cabin 102,Busy,2026-02-23 13:30:00,Monday
+Dr. Brown,Cabin 102,Available,2026-02-23 14:50:00,Monday
+Dr. Brown,Lab 2,Available,2026-02-23 16:40:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-02-24 09:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-02-24 10:15:00,Tuesday
+Dr. Smith,Lab 1,In Class,2026-02-24 11:30:00,Tuesday
+Dr. Smith,Cabin 101,Busy,2026-02-24 12:15:00,Tuesday
+Dr. Smith,Lab 2,Available,2026-02-24 14:00:00,Tuesday
+Dr. Smith,Cabin 101,Available,2026-02-24 15:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-02-24 09:30:00,Tuesday
+Prof. Doe,Lab 3,In Class,2026-02-24 10:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-02-24 11:55:00,Tuesday
+Prof. Doe,Cabin 102,Busy,2026-02-24 13:10:00,Tuesday
+Prof. Doe,Cabin 102,Available,2026-02-24 14:40:00,Tuesday
+Prof. Doe,Lab 2,Available,2026-02-24 16:15:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-02-24 09:10:00,Tuesday
+Dr. Jones,Cabin 101,In Class,2026-02-24 10:25:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-02-24 11:40:00,Tuesday
+Dr. Jones,Cabin 101,Busy,2026-02-24 12:50:00,Tuesday
+Dr. Jones,Lab 2,Available,2026-02-24 15:00:00,Tuesday
+Dr. Jones,Cabin 101,Available,2026-02-24 16:45:00,Tuesday
+Dr. Brown,Cabin 102,In Class,2026-02-24 09:50:00,Tuesday
+Dr. Brown,Lab 2,In Class,2026-02-24 11:05:00,Tuesday
+Dr. Brown,Lab 1,In Class,2026-02-24 11:50:00,Tuesday
+Dr. Brown,Cabin 102,Busy,2026-02-24 13:45:00,Tuesday
+Dr. Brown,Lab 2,Available,2026-02-24 14:20:00,Tuesday
+Dr. Brown,Cabin 102,Available,2026-02-24 16:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-02-25 09:15:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-02-25 10:30:00,Wednesday
+Dr. Smith,Lab 2,In Class,2026-02-25 11:45:00,Wednesday
+Dr. Smith,Cabin 101,Busy,2026-02-25 13:00:00,Wednesday
+Dr. Smith,Lab 2,Available,2026-02-25 14:30:00,Wednesday
+Dr. Smith,Cabin 101,Available,2026-02-25 16:15:00,Wednesday
+Prof. Doe,Lab 1,In Class,2026-02-25 09:05:00,Wednesday
+Prof. Doe,Lab 2,In Class,2026-02-25 10:20:00,Wednesday
+Prof. Doe,Cabin 102,In Class,2026-02-25 11:35:00,Wednesday
+Prof. Doe,Cabin 102,Busy,2026-02-25 12:45:00,Wednesday
+Prof. Doe,Lab 2,Available,2026-02-25 15:10:00,Wednesday
+Prof. Doe,Cabin 102,Available,2026-02-25 16:30:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-02-25 09:40:00,Wednesday
+Dr. Jones,Lab 2,In Class,2026-02-25 10:55:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-02-25 11:50:00,Wednesday
+Dr. Jones,Cabin 101,Busy,2026-02-25 12:20:00,Wednesday
+Dr. Jones,Lab 2,Available,2026-02-25 14:15:00,Wednesday
+Dr. Jones,Cabin 101,Available,2026-02-25 16:05:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-02-25 09:25:00,Wednesday
+Dr. Brown,Lab 1,In Class,2026-02-25 10:10:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-02-25 11:15:00,Wednesday
+Dr. Brown,Cabin 102,Busy,2026-02-25 13:30:00,Wednesday
+Dr. Brown,Cabin 102,Available,2026-02-25 14:50:00,Wednesday
+Dr. Brown,Lab 2,Available,2026-02-25 16:40:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-02-26 09:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-02-26 10:15:00,Thursday
+Dr. Smith,Lab 1,In Class,2026-02-26 11:30:00,Thursday
+Dr. Smith,Cabin 101,Busy,2026-02-26 12:15:00,Thursday
+Dr. Smith,Lab 2,Available,2026-02-26 14:00:00,Thursday
+Dr. Smith,Cabin 101,Available,2026-02-26 15:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-02-26 09:30:00,Thursday
+Prof. Doe,Lab 3,In Class,2026-02-26 10:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-02-26 11:55:00,Thursday
+Prof. Doe,Cabin 102,Busy,2026-02-26 13:10:00,Thursday
+Prof. Doe,Cabin 102,Available,2026-02-26 14:40:00,Thursday
+Prof. Doe,Lab 2,Available,2026-02-26 16:15:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-02-26 09:10:00,Thursday
+Dr. Jones,Cabin 101,In Class,2026-02-26 10:25:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-02-26 11:40:00,Thursday
+Dr. Jones,Cabin 101,Busy,2026-02-26 12:50:00,Thursday
+Dr. Jones,Lab 2,Available,2026-02-26 15:00:00,Thursday
+Dr. Jones,Cabin 101,Available,2026-02-26 16:45:00,Thursday
+Dr. Brown,Cabin 102,In Class,2026-02-26 09:50:00,Thursday
+Dr. Brown,Lab 2,In Class,2026-02-26 11:05:00,Thursday
+Dr. Brown,Lab 1,In Class,2026-02-26 11:50:00,Thursday
+Dr. Brown,Cabin 102,Busy,2026-02-26 13:45:00,Thursday
+Dr. Brown,Lab 2,Available,2026-02-26 14:20:00,Thursday
+Dr. Brown,Cabin 102,Available,2026-02-26 16:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-02-27 09:30:00,Friday
+Dr. Smith,Lab 1,In Class,2026-02-27 10:45:00,Friday
+Dr. Smith,Cabin 101,In Class,2026-02-27 11:50:00,Friday
+Dr. Smith,Cabin 101,Busy,2026-02-27 13:15:00,Friday
+Dr. Smith,Lab 2,Available,2026-02-27 14:15:00,Friday
+Dr. Smith,Cabin 101,Available,2026-02-27 15:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-27 09:15:00,Friday
+Prof. Doe,Lab 2,In Class,2026-02-27 10:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-02-27 11:15:00,Friday
+Prof. Doe,Cabin 102,Busy,2026-02-27 12:30:00,Friday
+Prof. Doe,Lab 2,Available,2026-02-27 14:45:00,Friday
+Prof. Doe,Cabin 102,Available,2026-02-27 16:00:00,Friday
+Dr. Jones,Lab 1,In Class,2026-02-27 09:05:00,Friday
+Dr. Jones,Lab 2,In Class,2026-02-27 10:10:00,Friday
+Dr. Jones,Lab 3,In Class,2026-02-27 11:35:00,Friday
+Dr. Jones,Cabin 101,Busy,2026-02-27 13:45:00,Friday
+Dr. Jones,Lab 2,Available,2026-02-27 15:20:00,Friday
+Dr. Jones,Cabin 101,Available,2026-02-27 16:50:00,Friday
+Dr. Brown,Lab 3,In Class,2026-02-27 09:40:00,Friday
+Dr. Brown,Cabin 102,In Class,2026-02-27 10:50:00,Friday
+Dr. Brown,Lab 2,In Class,2026-02-27 11:45:00,Friday
+Dr. Brown,Cabin 102,Busy,2026-02-27 12:15:00,Friday
+Dr. Brown,Lab 2,Available,2026-02-27 14:05:00,Friday
+Dr. Brown,Cabin 102,Available,2026-02-27 16:20:00,Friday
+Dr. Smith,Lab 2,In Class,2026-03-02 09:15:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-03-02 10:30:00,Monday
+Dr. Smith,Lab 2,In Class,2026-03-02 11:45:00,Monday
+Dr. Smith,Cabin 101,Busy,2026-03-02 13:00:00,Monday
+Dr. Smith,Lab 2,Available,2026-03-02 14:30:00,Monday
+Dr. Smith,Cabin 101,Available,2026-03-02 16:15:00,Monday
+Prof. Doe,Lab 1,In Class,2026-03-02 09:05:00,Monday
+Prof. Doe,Lab 2,In Class,2026-03-02 10:20:00,Monday
+Prof. Doe,Cabin 102,In Class,2026-03-02 11:35:00,Monday
+Prof. Doe,Cabin 102,Busy,2026-03-02 12:45:00,Monday
+Prof. Doe,Lab 2,Available,2026-03-02 15:10:00,Monday
+Prof. Doe,Cabin 102,Available,2026-03-02 16:30:00,Monday
+Dr. Jones,Lab 3,In Class,2026-03-02 09:40:00,Monday
+Dr. Jones,Lab 2,In Class,2026-03-02 10:55:00,Monday
+Dr. Jones,Lab 3,In Class,2026-03-02 11:50:00,Monday
+Dr. Jones,Cabin 101,Busy,2026-03-02 12:20:00,Monday
+Dr. Jones,Lab 2,Available,2026-03-02 14:15:00,Monday
+Dr. Jones,Cabin 101,Available,2026-03-02 16:05:00,Monday
+Dr. Brown,Lab 2,In Class,2026-03-02 09:25:00,Monday
+Dr. Brown,Lab 1,In Class,2026-03-02 10:10:00,Monday
+Dr. Brown,Lab 2,In Class,2026-03-02 11:15:00,Monday
+Dr. Brown,Cabin 102,Busy,2026-03-02 13:30:00,Monday
+Dr. Brown,Cabin 102,Available,2026-03-02 14:50:00,Monday
+Dr. Brown,Lab 2,Available,2026-03-02 16:40:00,Monday
+Dr. Smith,Cabin 101,In Class,2026-03-03 09:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-03-03 10:15:00,Tuesday
+Dr. Smith,Lab 1,In Class,2026-03-03 11:30:00,Tuesday
+Dr. Smith,Cabin 101,Busy,2026-03-03 12:15:00,Tuesday
+Dr. Smith,Lab 2,Available,2026-03-03 14:00:00,Tuesday
+Dr. Smith,Cabin 101,Available,2026-03-03 15:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-03-03 09:30:00,Tuesday
+Prof. Doe,Lab 3,In Class,2026-03-03 10:45:00,Tuesday
+Prof. Doe,Lab 2,In Class,2026-03-03 11:55:00,Tuesday
+Prof. Doe,Cabin 102,Busy,2026-03-03 13:10:00,Tuesday
+Prof. Doe,Cabin 102,Available,2026-03-03 14:40:00,Tuesday
+Prof. Doe,Lab 2,Available,2026-03-03 16:15:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-03-03 09:10:00,Tuesday
+Dr. Jones,Cabin 101,In Class,2026-03-03 10:25:00,Tuesday
+Dr. Jones,Lab 2,In Class,2026-03-03 11:40:00,Tuesday
+Dr. Jones,Cabin 101,Busy,2026-03-03 12:50:00,Tuesday
+Dr. Jones,Lab 2,Available,2026-03-03 15:00:00,Tuesday
+Dr. Jones,Cabin 101,Available,2026-03-03 16:45:00,Tuesday
+Dr. Brown,Cabin 102,In Class,2026-03-03 09:50:00,Tuesday
+Dr. Brown,Lab 2,In Class,2026-03-03 11:05:00,Tuesday
+Dr. Brown,Lab 1,In Class,2026-03-03 11:50:00,Tuesday
+Dr. Brown,Cabin 102,Busy,2026-03-03 13:45:00,Tuesday
+Dr. Brown,Lab 2,Available,2026-03-03 14:20:00,Tuesday
+Dr. Brown,Cabin 102,Available,2026-03-03 16:00:00,Tuesday
+Dr. Smith,Lab 2,In Class,2026-03-04 09:15:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-03-04 10:30:00,Wednesday
+Dr. Smith,Lab 2,In Class,2026-03-04 11:45:00,Wednesday
+Dr. Smith,Cabin 101,Busy,2026-03-04 13:00:00,Wednesday
+Dr. Smith,Lab 2,Available,2026-03-04 14:30:00,Wednesday
+Dr. Smith,Cabin 101,Available,2026-03-04 16:15:00,Wednesday
+Prof. Doe,Lab 1,In Class,2026-03-04 09:05:00,Wednesday
+Prof. Doe,Lab 2,In Class,2026-03-04 10:20:00,Wednesday
+Prof. Doe,Cabin 102,In Class,2026-03-04 11:35:00,Wednesday
+Prof. Doe,Cabin 102,Busy,2026-03-04 12:45:00,Wednesday
+Prof. Doe,Lab 2,Available,2026-03-04 15:10:00,Wednesday
+Prof. Doe,Cabin 102,Available,2026-03-04 16:30:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-03-04 09:40:00,Wednesday
+Dr. Jones,Lab 2,In Class,2026-03-04 10:55:00,Wednesday
+Dr. Jones,Lab 3,In Class,2026-03-04 11:50:00,Wednesday
+Dr. Jones,Cabin 101,Busy,2026-03-04 12:20:00,Wednesday
+Dr. Jones,Lab 2,Available,2026-03-04 14:15:00,Wednesday
+Dr. Jones,Cabin 101,Available,2026-03-04 16:05:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-03-04 09:25:00,Wednesday
+Dr. Brown,Lab 1,In Class,2026-03-04 10:10:00,Wednesday
+Dr. Brown,Lab 2,In Class,2026-03-04 11:15:00,Wednesday
+Dr. Brown,Cabin 102,Busy,2026-03-04 13:30:00,Wednesday
+Dr. Brown,Cabin 102,Available,2026-03-04 14:50:00,Wednesday
+Dr. Brown,Lab 2,Available,2026-03-04 16:40:00,Wednesday
+Dr. Smith,Cabin 101,In Class,2026-03-05 09:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-03-05 10:15:00,Thursday
+Dr. Smith,Lab 1,In Class,2026-03-05 11:30:00,Thursday
+Dr. Smith,Cabin 101,Busy,2026-03-05 12:15:00,Thursday
+Dr. Smith,Lab 2,Available,2026-03-05 14:00:00,Thursday
+Dr. Smith,Cabin 101,Available,2026-03-05 15:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-03-05 09:30:00,Thursday
+Prof. Doe,Lab 3,In Class,2026-03-05 10:45:00,Thursday
+Prof. Doe,Lab 2,In Class,2026-03-05 11:55:00,Thursday
+Prof. Doe,Cabin 102,Busy,2026-03-05 13:10:00,Thursday
+Prof. Doe,Cabin 102,Available,2026-03-05 14:40:00,Thursday
+Prof. Doe,Lab 2,Available,2026-03-05 16:15:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-03-05 09:10:00,Thursday
+Dr. Jones,Cabin 101,In Class,2026-03-05 10:25:00,Thursday
+Dr. Jones,Lab 2,In Class,2026-03-05 11:40:00,Thursday
+Dr. Jones,Cabin 101,Busy,2026-03-05 12:50:00,Thursday
+Dr. Jones,Lab 2,Available,2026-03-05 15:00:00,Thursday
+Dr. Jones,Cabin 101,Available,2026-03-05 16:45:00,Thursday
+Dr. Brown,Cabin 102,In Class,2026-03-05 09:50:00,Thursday
+Dr. Brown,Lab 2,In Class,2026-03-05 11:05:00,Thursday
+Dr. Brown,Lab 1,In Class,2026-03-05 11:50:00,Thursday
+Dr. Brown,Cabin 102,Busy,2026-03-05 13:45:00,Thursday
+Dr. Brown,Lab 2,Available,2026-03-05 14:20:00,Thursday
+Dr. Brown,Cabin 102,Available,2026-03-05 16:00:00,Thursday
+Dr. Smith,Lab 2,In Class,2026-03-06 09:30:00,Friday
+Dr. Smith,Lab 1,In Class,2026-03-06 10:45:00,Friday
+Dr. Smith,Cabin 101,In Class,2026-03-06 11:50:00,Friday
+Dr. Smith,Cabin 101,Busy,2026-03-06 13:15:00,Friday
+Dr. Smith,Lab 2,Available,2026-03-06 14:15:00,Friday
+Dr. Smith,Cabin 101,Available,2026-03-06 15:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-03-06 09:15:00,Friday
+Prof. Doe,Lab 2,In Class,2026-03-06 10:30:00,Friday
+Prof. Doe,Cabin 102,In Class,2026-03-06 11:15:00,Friday
+Prof. Doe,Cabin 102,Busy,2026-03-06 12:30:00,Friday
+Prof. Doe,Lab 2,Available,2026-03-06 14:45:00,Friday
+Prof. Doe,Cabin 102,Available,2026-03-06 16:00:00,Friday
+Dr. Jones,Lab 1,In Class,2026-03-06 09:05:00,Friday
+Dr. Jones,Lab 2,In Class,2026-03-06 10:10:00,Friday
+Dr. Jones,Lab 3,In Class,2026-03-06 11:35:00,Friday
+Dr. Jones,Cabin 101,Busy,2026-03-06 13:45:00,Friday
+Dr. Jones,Lab 2,Available,2026-03-06 15:20:00,Friday
+Dr. Jones,Cabin 101,Available,2026-03-06 16:50:00,Friday
+Dr. Brown,Lab 3,In Class,2026-03-06 09:40:00,Friday
+Dr. Brown,Cabin 102,In Class,2026-03-06 10:50:00,Friday
+Dr. Brown,Lab 2,In Class,2026-03-06 11:45:00,Friday
+Dr. Brown,Cabin 102,Busy,2026-03-06 12:15:00,Friday
+Dr. Brown,Lab 2,Available,2026-03-06 14:05:00,Friday
+Dr. Brown,Cabin 102,Available,2026-03-06 16:20:00,Friday
+```

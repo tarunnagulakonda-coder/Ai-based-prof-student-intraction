@@ -53,3 +53,45 @@ def api_login(request):
             return JsonResponse({'success': False, 'error': str(e)}, status=400)
     
     return JsonResponse({'success': False, 'error': 'Method not allowed'}, status=405)
+
+
+@csrf_exempt
+def api_update_status(request):
+    if request.method == 'POST':
+        try:
+            body = json.loads(request.body)
+            lecturer_id = body.get('id')
+            new_status = body.get('status')
+            new_location = body.get('cabin')
+
+            lecturer = Lecturer.objects.filter(id=lecturer_id).first()
+            if not lecturer:
+                return JsonResponse({'success': False, 'error': 'Lecturer not found'}, status=404)
+
+            # Update Lecturer
+            lecturer.status = new_status
+            lecturer.location = new_location
+            lecturer.save()
+
+            # Create Activity Log
+            from .models import ActivityLog
+            ActivityLog.objects.create(
+                lecturer=lecturer,
+                location=new_location,
+                status=new_status
+            )
+
+            return JsonResponse({'success': True, 'message': 'Status updated successfully'})
+        except Exception as e:
+            return JsonResponse({'success': False, 'error': str(e)}, status=400)
+
+    return JsonResponse({'success': False, 'error': 'Method not allowed'}, status=405)
+
+
+def api_suggestions(request):
+    try:
+        from .analytics import generate_ai_suggestions
+        suggestions = generate_ai_suggestions()
+        return JsonResponse({'suggestions': suggestions})
+    except Exception as e:
+        return JsonResponse({'suggestions': ["Error generating AI suggestions.", str(e)]})
