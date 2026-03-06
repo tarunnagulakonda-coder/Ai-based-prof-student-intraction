@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeAppliance Pro | Quality for Your Home</title>
+
+    <link rel="stylesheet" href="{% static 'sample2.css' %}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Modern<span>stores</span></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Upgrade Your Home Lifestyle</h1>
+        <p>Reliable appliances with extended warranty at wholesale cost.</p>
+        <button onclick="scrollToProducts()">Browse Collection</button>
+    </section>
+
+    <main id="products">
+        <h2 class="section-title">Featured Appliances</h2>
+        <div class="product-grid" id="productGrid"></div>
+    </main>
+
+    <script src="{% static 'sample1.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LecTrack | Real-Time Availability</title>
+    <link rel="stylesheet" href="{% static 'testcase.css' %}?v=3">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>LecTrack</h1>
+        <div class="nav-links">
+            <button onclick="showView('student')" class="btn-nav">Student View</button>
+            <button onclick="showView('login')" class="btn-nav">Lecturer Login</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="student-view" class="view">
+            <h2>Lecturer Directory</h2>
+            <div id="lecturer-list" class="grid">
+            </div>
+        </section>
+
+        <section id="login-view" class="view hidden">
+            <div class="card login-card">
+                <h2>Lecturer Login</h2>
+                <input type="text" id="username" placeholder="Enter Lecturer Name (e.g. Dr. Smith)">
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="handleLogin()" class="btn-primary">Login</button>
+                <p id="login-error" class="error"></p>
+            </div>
+        </section>
+
+        <section id="lecturer-view" class="view hidden">
+            <div class="dashboard-header">
+                <h2>Welcome, <span id="prof-name"></span></h2>
+                <button onclick="logout()" class="btn-outline">Logout</button>
+            </div>
+            <div class="card">
+                <h3>Update Your Status</h3>
+                <label>Current Status:</label>
+                <select id="status-select">
+                    <option value="Available">Available</option>
+                    <option value="In Class">In Class</option>
+                    <option value="Busy">Busy</option>
+                    <option value="Absent">Absent</option>
+                </select>
+
+                <label>Cabin Location:</label>
+                <input type="text" id="cabin-input" placeholder="e.g., Block A, Room 302">
+
+                <button onclick="updateLecturerData()" class="btn-primary">Save Changes</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="{% static 'testcs.js' %}?v=3"></script>
+</body>
+
+</html>
